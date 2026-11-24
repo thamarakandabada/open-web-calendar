@@ -55,22 +55,9 @@ files = [
 
 [tool.hatch.metadata.hooks.requirements_txt.optional-dependencies]
 # see https://pypi.org/project/hatch-requirements-txt/
-dev = [
-  "requirements/dev.in"
-]
-test = [
-  "requirements/test.in"
-]
 production = [
   "requirements/base.txt"
 ]
-dev-fix = [
-  "requirements/dev.txt"
-]
-test-fix = [
-  "requirements/test.txt"
-]
-
 
 [project.scripts]
 open-web-calendar = "open_web_calendar:main"
